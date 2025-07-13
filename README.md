@@ -8,7 +8,7 @@ O objetivo do Vida Plena é disponibilizar informações acessíveis sobre saúd
 
 ## Funcionalidades
 
-- Layout responsivo e moderno (À ser aplicado)
+- Layout responsivo e moderno (A ser aplicado)
 - Seções informativas sobre saúde e bem-estar
 - Conteúdos atualizados e de fácil leitura
 - Navegação simples e intuitiva
@@ -17,7 +17,7 @@ O objetivo do Vida Plena é disponibilizar informações acessíveis sobre saúd
 
 - HTML5
 - CSS3
-- JavaScript(À ser aplicado)
+- JavaScript(A ser aplicado)
 
 ## Como Executar
 

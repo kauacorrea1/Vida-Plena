@@ -1,0 +1,107 @@
+footer {
+    width: 100%;
+    max-height: 400px;
+    background-color: #69bbc3;
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.footer-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #f4f4f4;
+}
+
+.footer1 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-empresa-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.slogan {
+    font-style: italic;
+}
+
+
+a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+ul li {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+ul li:hover {
+    text-decoration: underline  ;
+}
+
+
+li p {
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer1 .nome-empresa {
+   font-size: 24px;
+}
+
+.socials img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.socials img:hover {
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: 0.3s;
+}
+
+.div-copyright {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.slogan {
+    font-size: 18px;
+}

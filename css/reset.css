@@ -1,0 +1,14 @@
+* {
+    font-family: Montserrat, sans-serif;
+    
+}
+header {
+    width: 1024px;
+    margin: auto;
+}
+body {
+    width: 1024px;
+    background-color: #f4f4f4;
+    margin: auto;
+}
+

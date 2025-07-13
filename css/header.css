@@ -1,0 +1,89 @@
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-container img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.logo-container p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: .9;
+}
+
+.logo-container span {
+    font-size: 12px;
+    margin-top: 0px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.list-item {
+    text-decoration: none;
+    color: #303030;
+}
+
+.list-item:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+.nav-lista {
+    gap: 40px;
+}
+
+.botao1 {
+    background-color: #69bbc3;
+    color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: fit-content;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao1:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    background-color: #82e7f0;
+}
+
+.mudar-tema { 
+    
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+}
+
+.mudar-tema img {
+    filter: contrast(0);
+}

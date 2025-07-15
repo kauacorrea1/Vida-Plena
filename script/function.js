@@ -5,26 +5,40 @@ const peso = document.querySelector("#peso")
 
 
 //Função da calculadora de IMC
-const calcIMC = () => {
+function calcIMC() {
+    const altura = document.getElementById('altura');
+    const peso = document.getElementById('peso');
+    const resultado = document.getElementById('resultado');
+
     if (altura.value !== '' && peso.value !== '') {
-        const imc = (peso.value / (altura.value * altura.value)).toFixed(2)
-        let classification = ''
+        const alturaEmMetros = parseFloat(altura.value);
+        const pesoEmKg = parseFloat(peso.value);
 
-        if(imc < 18.5) {
-            classification = 'Abaixo do peso'
-        } else if(imc < 25) {
-            classification = 'Peso normal'
-        } else if(imc < 30) {
-            classification = 'Acima do peso'
-        } else if(imc < 40) {
-            classification = 'Obesidade 1'
-        } else if(imc < 50) {
-            classification = 'Obesidade 2'
-        } 
+        if (alturaEmMetros <= 0 || pesoEmKg <= 0) {
+            resultado.innerHTML = 'Valores invalidos.';
+            return;
+        }
 
-        resultado.innerHTML = `IMC: ${imc} (${classification})`
+        const imc = (pesoEmKg / (alturaEmMetros ** 2)).toFixed(2);
+        let classification = '';
+
+        if (imc < 18.5) {
+            classification = 'Abaixo do peso';
+        } else if (imc < 25) {
+            classification = 'Peso normal';
+        } else if (imc < 30) {
+            classification = 'Acima do peso';
+        } else if (imc < 40) {
+            classification = 'Obesidade 1';
+        } else if (imc < 50) {
+            classification = 'Obesidade 2';
+        } else {
+            classification = 'Obesidade grave';
+        }
+
+        resultado.innerHTML = `IMC: ${imc} (${classification})`;
     } else {
-        resultado.innerHTML = 'Preencha os campos'
+        resultado.innerHTML = 'Preencha todos os campos.';
     }
 }
 

@@ -172,15 +172,15 @@
             </div>
             <div class="calculadora-container">
                 <div>
+                    <label for="altura">Altura (m):</label>
+                    <input type="number" id="altura" step="0.01" placeholder="Digite sua altura, Ex: 1.75">
+                </div>
+                <div>
                     <label for="peso">Peso (kg):</label>
-                    <input type="number" id="peso" placeholder="Digite seu peso">
+                    <input type="number" id="peso" step="0.1" placeholder="Digite seu peso, Ex: 70">
                 </div>
                 <div>
-                    <label for="peso">Altura (cm):</label>
-                    <input type="number" id="altura" placeholder="Digite sua altura">
-                </div>
-                <div>
-                    <button class="botao1" onclick="calcIMC()">Calcular</button>
+                    <button onclick="calcIMC()" class="botao1">Calcular IMC</button>
                 </div>
                 <p id="resultado"></p>
                 <br>

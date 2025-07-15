@@ -1,0 +1,52 @@
+body.escuro {
+    background-color: #303030;
+}
+
+body.escuro h1 {
+    color: #f4f4f4f4;
+}
+
+body.escuro h4 {
+    color: #f4f4f4f4;
+}
+
+body.escuro p {
+    color: #f4f4f4f4;
+}
+
+body.escuro li {
+    color: #f4f4f4f4;
+}
+
+body.escuro .mudar-tema {
+    filter: none;
+}
+
+
+body.escuro .botao2 {
+    background-color: #303030;
+}
+
+body.escuro .botao2:hover {
+    background-color: #69bbc3;
+}
+
+body.escuro .calculadora-container label {
+    color: #f4f4f4;
+}
+
+body.escuro .section-reviews {
+    background-color: #494949;
+}
+
+body.escuro .cards-gallery {
+    background-color: #494949;
+}
+
+body.escuro .review-stars img {
+    filter: none;
+}
+
+body.escuro .review-header img {
+    filter: invert();
+}

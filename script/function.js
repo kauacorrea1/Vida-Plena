@@ -45,3 +45,8 @@ document.getElementById("btnTopo").addEventListener("click", function() {
     behavior: "smooth"
   });
 });
+
+
+const botao = document.getElementById("btnEscuro");
+
+botao.addEventListener("click", () => document.body.classList.toggle("escuro"));

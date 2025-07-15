@@ -10,5 +10,6 @@ body {
     width: 1024px;
     background-color: #f4f4f4;
     margin: auto;
+    transition: background-color 0.4s ease;
 }
 

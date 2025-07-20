@@ -64,7 +64,7 @@ nav ul {
 }
 
 .botao1 {
-    background-color: #69bbc3;
+    background-color: #187bbe;
     color: #f4f4f4;
     padding: 10px 20px;
     border-radius: 20px;
@@ -78,7 +78,7 @@ nav ul {
 .botao1:hover {
     transform: scale(1.05);
     transition: 0.3s;
-    background-color: #82e7f0;
+    background-color: #1b89d3;
 }
 
 .mudar-tema { 

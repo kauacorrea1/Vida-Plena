@@ -25,10 +25,13 @@ body.escuro .mudar-tema {
 
 body.escuro .botao2 {
     background-color: #303030;
+    border: 1px solid #6D9FC0;
+    color: #6D9FC0;;
 }
 
 body.escuro .botao2:hover {
-    background-color: #69bbc3;
+    background-color: #6D9FC0;
+    color: #f4f4f4;
 }
 
 body.escuro .calculadora-container label {
@@ -49,4 +52,24 @@ body.escuro .review-stars img {
 
 body.escuro .review-header img {
     filter: invert();
+}
+
+body.escuro .botao1 {
+    background-color: #6D9FC0;
+}
+
+body.escuro .destaque-title span {
+    color: #6D9FC0;
+}
+
+body.escuro .destaque-title span {
+    color: #6D9FC0;
+}
+
+body.escuro .hero-text span {
+    color: #6D9FC0;
+}
+
+body.escuro footer {
+    background-color: #6D9FC0;
 }

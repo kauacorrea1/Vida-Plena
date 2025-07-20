@@ -44,7 +44,7 @@ main {
 }
 
 .hero-text span {
-    color: #69bbc3;
+    color: #187bbe;
 }
 
 .botao2 {
@@ -52,8 +52,8 @@ main {
     padding: 10px 20px;
     border-radius: 20px;
     background-color: #f4f4f4;
-    border: 2px solid #69bbc3;
-    color: #69bbc3;
+    border: 2px solid #187bbe;
+    color: #187bbe;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
@@ -62,8 +62,8 @@ main {
 
 .botao2:hover {
     transform: scale(1.05);
-    background-color: #82e7f0;
-    border: 2px solid #82e7f0;
+    background-color: #187bbe;
+    border: 2px solid #187bbe;
     color: #f4f4f4;
     transition: 0.3s;
 }
@@ -142,7 +142,7 @@ main {
 }
 
 .destaque-text span {
-    color: #69bbc3;
+    color: #187bbe;
 }
 
 .destaque-text p {
@@ -262,7 +262,7 @@ main {
 }
 
 .section-funcao span {
-    color: #69bbc3;
+    color: #187bbe;
 }
 
 .calculadora-container {
@@ -296,14 +296,14 @@ main {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #69bbc3;
+    background-color: #187bbe;
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.3s ease;
 }
 
 #btnTopo:hover {
-    background-color: #69bbc3;
+    background-color: #1a84ca;
     transform: scale(1.05);
     transition: 0.3s;
 }

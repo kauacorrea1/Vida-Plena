@@ -19,7 +19,7 @@ function calcIMC() {
             return;
         }
 
-        const imc = (pesoEmKg / (alturaEmMetros ** 2)).toFixed(2);
+        const imc = (pesoEmKg / ((alturaEmMetros / 100) ** 2)).toFixed(2);
         let classification = '';
 
         if (imc < 18.5) {

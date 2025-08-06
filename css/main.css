@@ -44,7 +44,7 @@ main {
 }
 
 .hero-text span {
-    color: #187bbe;
+    color: #1673B1;
 }
 
 .botao2 {
@@ -52,8 +52,8 @@ main {
     padding: 10px 20px;
     border-radius: 20px;
     background-color: #f4f4f4;
-    border: 2px solid #187bbe;
-    color: #187bbe;
+    border: 2px solid #1673B1;
+    color: #1673B1;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
@@ -62,8 +62,8 @@ main {
 
 .botao2:hover {
     transform: scale(1.05);
-    background-color: #187bbe;
-    border: 2px solid #187bbe;
+    background-color: #1673B1;
+    border: 2px solid #1673B1;
     color: #f4f4f4;
     transition: 0.3s;
 }
@@ -142,7 +142,7 @@ main {
 }
 
 .destaque-text span {
-    color: #187bbe;
+    color: #1673B1;
 }
 
 .destaque-text p {
@@ -262,7 +262,7 @@ main {
 }
 
 .section-funcao span {
-    color: #187bbe;
+    color: #1673B1;
 }
 
 .calculadora-container {
@@ -296,7 +296,7 @@ main {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #187bbe;
+    background-color: #1673B1;
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.3s ease;
